@@ -2,4 +2,10 @@
 
 Problem:
 
-There is a bot in infinite grid. Commands are of type string, which repeats indefinitely - G stand for move one step forward, R - turn to the right, L - turn to the left. Given a string of commands find out if there is circle which robot will never leave. 
+Given a sequence of moves for a robot, check if the sequence is circular or not. A sequence of moves is circular if first and last positions of robot are same. A move can be on of the following.
+
+``
+  G - Go one unit
+  L - Turn left
+  R - Turn right 
+``
